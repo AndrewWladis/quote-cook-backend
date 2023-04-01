@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const Data = require('./data.json');
 
+let isArrReversed = false;
+
 function returnArr(quote) {
     let arr = [];
     let num = 0;
@@ -31,7 +33,7 @@ function returnArr(quote) {
 }
 
 function returnQuoteFromNum(big) {
-    let reversedArr = Data.quotes.reverse();
+    let reversedArr = Data.quotes;
     let arr = [];
 
     for (let i = 0; i < 5; i++) {
@@ -45,7 +47,6 @@ function returnQuoteFromNum(big) {
             options: returnArr(currentQuote)
         })
     }
-
     return arr;
 }
 
