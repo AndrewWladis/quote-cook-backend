@@ -33,7 +33,7 @@ function returnArr(quote) {
 }
 
 function returnQuoteFromNum(big) {
-    let reversedArr = Data.quotes;
+    let reversedArr = Data.quotes.slice().reverse();
     let arr = [];
 
     for (let i = 0; i < 5; i++) {
