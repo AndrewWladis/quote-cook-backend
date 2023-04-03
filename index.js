@@ -53,7 +53,7 @@ function returnQuoteFromNum(big) {
 
 app.get('/todayQuote', (req, res) => {
     let date = new Date();
-    res.send(returnQuoteFromNum(Math.floor(((date.getDay() + 1) * (date.getDate() + date.getMonth())) / 3)));
+    res.send(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))));
 });
 
 app.listen(3000, () => {
