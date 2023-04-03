@@ -56,6 +56,14 @@ app.get('/todayQuote', (req, res) => {
     res.send(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))));
 });
 
+app.get('/randomQuotes', (req, res) => {
+    let quote = Data.quotes[Math.floor(Math.random() * Data.quotes.length) - 1];
+    res.send({
+        quote: quote,
+        options: returnArr(quote)
+    });
+});
+
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
 });
