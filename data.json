@@ -25,10 +25,6 @@
             "author": "Mike Ehrmantraut"
         },
         {
-            "quote": "The thing is, if you just do stuff and nothing happens, what's it all mean? What's the point? Oh right, this whole thing is about self-acceptance.",
-            "author": "Jesse Pinkman"
-        },
-        {
             "quote": "You are a time bomb, tick-tick-ticking. And I have no intention of being around for the boom.",
             "author": "Mike Ehrmantraut"
         },
@@ -609,7 +605,7 @@
             "author": "Tuco Salamanca"
         },
         {
-            "quote": "You called her biznatch?",
+            "quote": "You called her \"biznatch\"?",
             "author": "Tuco Salamanca"
         },
         {
@@ -627,6 +623,18 @@
         {
             "quote": "Okay, Heisenberg! Next week.",
             "author": "Tuco Salamanca"
+        },
+        {
+            "quote": "Like the wild west?",
+            "author": "Jesse Pinkman"
+        },
+        {
+            "quote": "You and I will not make garbage.",
+            "author": "Walter White"
+        },
+        {
+            "quote": "We will produce a chemically pure and stable product that performs as advertised.",
+            "author": "Walter White"
         }
     ]
 }

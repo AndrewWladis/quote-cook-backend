@@ -56,6 +56,10 @@ app.get('/todayQuote', (req, res) => {
     res.send(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))));
 });
 
+app.get('/fullfile', (req, res) => {
+    res.send(Data.quotes);
+});
+
 app.get('/randomQuote', (req, res) => {
     let quote = Data.quotes[Math.floor(Math.random() * Data.quotes.length) - 1];
     res.send({
