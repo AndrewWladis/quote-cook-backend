@@ -48,7 +48,8 @@ function returnQuoteFromNum(big) {
             options: returnArr(currentQuote)
         })
     }
-    return arr.shift();
+    arr.shift()
+    return arr;
 }
 
 app.get('/todayQuote', (req, res) => {
