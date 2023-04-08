@@ -2,6 +2,10 @@ const express = require('express');
 const app = express();
 const Data = require('./data.json');
 
+function isEvenDay() {
+    return new Date().getDay() % 2 == 0;
+}
+
 function returnArr(quote) {
     let arr = [];
     let num = 0;
@@ -34,7 +38,14 @@ function returnArr(quote) {
 }
 
 function returnQuoteFromNum(big) {
-    let reversedArr = Data.quotes.slice();
+    let reversedArr;
+
+    if (isEvenDay()) {
+        reversedArr = Data.quotes.slice();
+    } else {
+        reversedArr = Data.quotes.slice().reverse();
+    }
+
     let arr = [];
 
     for (let i = 0; i < 12; i++) {
@@ -43,12 +54,14 @@ function returnQuoteFromNum(big) {
             num -= reversedArr.length;
         }
         let currentQuote = reversedArr[num];
+        console.log(reversedArr[num].quote)
         arr.push({
             quote: currentQuote,
             options: returnArr(currentQuote)
         })
     }
-    return arr.slice(2);
+    
+    return arr.splice(2);
 }
 
 app.get('/todayQuote', (req, res) => {
