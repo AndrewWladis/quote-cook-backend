@@ -37,7 +37,7 @@ function returnQuoteFromNum(big) {
     let reversedArr = Data.quotes.slice();
     let arr = [];
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 11; i++) {
         let num = big * (i * 2);
         while (num >= reversedArr.length) {
             num -= reversedArr.length;
@@ -48,7 +48,7 @@ function returnQuoteFromNum(big) {
             options: returnArr(currentQuote)
         })
     }
-    return arr;
+    return arr.shift();
 }
 
 app.get('/todayQuote', (req, res) => {
