@@ -48,24 +48,24 @@ function returnQuoteFromNum(big) {
 
     let arr = [];
 
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 14; i++) {
         let num = big * (i * 2);
         while (num >= reversedArr.length) {
             num -= reversedArr.length;
         }
         let currentQuote = reversedArr[num];
-        console.log(reversedArr[num].quote)
         arr.push({
             quote: currentQuote,
             options: returnArr(currentQuote)
         })
     }
     
-    return arr.splice(2);
+    return arr.splice(4);
 }
 
 app.get('/todayQuote', (req, res) => {
     let date = new Date();
+    console.log(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))).length)
     res.send(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))));
 });
 
