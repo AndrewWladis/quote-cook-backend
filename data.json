@@ -29,7 +29,7 @@
             "author": "Mike Ehrmantraut"
         },
         {
-            "quote": "Don't drink and drive but if you do, call me.",
+            "quote": "Don't drink and drive, but if you do call me.",
             "author": "Saul Goodman"
         },
         {
@@ -205,10 +205,6 @@
             "author": "Mike Ehrmantraut"
         },
         {
-            "quote": "If you don't know who I am, then maybe your best course would be to tread lightly.",
-            "author": "Walter White"
-        },
-        {
             "quote": "You need to stop focusing on the darkness behind you. The past is the past. Nothing can change what we've done.",
             "author": "Walter White"
         },
@@ -221,7 +217,7 @@
             "author": "Jesse Pinkman"
         },
         {
-            "quote": "I Won.",
+            "quote": "I won.",
             "author": "Walter White"
         },
         {
@@ -285,7 +281,7 @@
             "author": "Walter White"
         },
         {
-            "quote": "Jesse, you asked me if I was in the meth business or the money business.. Neither. I'm in the empire business.",
+            "quote": "Jesse, you asked me if I was in the meth business or the money business. Neither. I'm in the empire business.",
             "author": "Walter White"
         },
         {
@@ -305,7 +301,7 @@
             "author": "Hank Schrader"
         },
         {
-            "quote": "Fifty years I spent like that. Finding myself awake at three in the morning. But you know what? Ever since my diagnosis, I sleep just fine.",
+            "quote": "Fifty years I spent like that. Finding myself awake at three in the morning.",
             "author": "Walter White"
         },
         {
@@ -421,10 +417,6 @@
             "author": "Saul Goodman"
         },
         {
-            "quote": "I was more than a willing participant.",
-            "author": "Saul Goodman"
-        }, 
-        {
             "quote": "If I was your age, starting fresh, I would go to Alaska.",
             "author": "Mike Ehrmantraut"
         },
@@ -477,7 +469,7 @@
             "author": "Skyler White"
         },
         {
-            "quote": "No, No, you listen to me. It's time for you to listen to me.",
+            "quote": "No, no, you listen to me. It's time for you to listen to me.",
             "author": "Walter White"
         },
         {
@@ -643,6 +635,30 @@
         {
             "quote": "When I close my eyes, I can still see it. It's burned into my retinas like I was staring into the sun.",
             "author":"Saul Goodman"
+        },
+        {
+            "quote": "I wasn't there when the meth was cooked. I wasn't there when it was sold. I didn't witness any of the murders, but I damn well knew it was happening.",
+            "author":"Saul Goodman"
+        },
+        {
+            "quote": "I kept Walter White out of jail, I laundered his money, I lied for him, I conspired with him, and I made millions.",
+            "author":"Saul Goodman"
+        },
+        {
+            "quote": "I was more than a willing participant. I was indispensable.",
+            "author": "Saul Goodman"
+        },
+        {
+            "quote": "You gave our money to Ted?",
+            "author":"Walter White"
+        },
+        {
+            "quote": "Why were you working against me Chuck?!",
+            "author":"Saul Goodman"
+        },
+        {
+            "quote": "Ever since my diagnosis, I sleep just fine.",
+            "author": "Walter White"
         }
     ]
 }
