@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 const Data = require('./data.json');
+const cors = require('cors');
 
-app.use(cors());
+app.use(cors({
+    origin: '*'
+}));
 
 function isEvenDay() {
     return new Date().getDay() % 2 == 0;
