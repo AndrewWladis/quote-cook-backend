@@ -70,8 +70,7 @@ function returnQuoteFromNum(big) {
 
 app.get('/todayQuote', (req, res) => {
     let date = new Date();
-    console.log(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))).length)
-    res.send(returnQuoteFromNum(Math.floor((date.getDay() + 1) * (date.getDate() + date.getMonth()))));
+    res.send(returnQuoteFromNum(Math.floor((date.getDay() + 3) * (date.getDate() + date.getMonth()))));
 });
 
 app.get('/fullfile', (req, res) => {
